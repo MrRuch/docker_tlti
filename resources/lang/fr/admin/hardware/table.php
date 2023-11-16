@@ -12,7 +12,7 @@ return [
     'current_value' => 'Valeur actuelle',
     'diff' 			=> 'Différence',
     'dl_csv' 		=> 'Télécharger en CSV',
-    'eol' 			=> 'Fin de vie',
+    'eol' 			=> 'Date de ghost',
     'id'      		=> 'ID',
     'last_checkin_date' => 'Date de dernière dissociation',
     'location' 		=> 'Lieu',
