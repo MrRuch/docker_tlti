@@ -2,7 +2,7 @@
 
 return [
 
-    'asset_tag'   	=> 'Étiquette de l\'actif',
+    'asset_tag'   	=> 'Série',
     'asset_model'       => 'Modèle',
     'book_value'  	=> 'Valeur actuelle',
     'change' 		=> 'Associer/Libérer',
@@ -18,13 +18,13 @@ return [
     'location' 		=> 'Lieu',
     'purchase_cost'	=> 'Coût',
     'purchase_date'	=> 'Acheté',
-    'serial'   		=> 'Numéro de série',
+    'serial'   		=> 'Stockage',
     'status'   		=> 'Statut',
     'title'      	=> 'Actif ',
     'image'		    => 'Image',
     'days_without_acceptance' => 'Jours sans acceptation',
     'monthly_depreciation' => 'Dépréciation mensuelle',
-    'assigned_to'    => 'Affecté à',
+    'assigned_to'    => 'prêté à',
     'requesting_user' => 'Demandeur·euse',
     'requested_date' => 'Date de la demande',
     'changed'       => 'Modifié',
