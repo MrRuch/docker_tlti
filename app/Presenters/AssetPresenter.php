@@ -43,7 +43,7 @@ class AssetPresenter extends Presenter
                 'title' => trans('admin/hardware/form.name'),
                 'visible' => true,
                 'formatter' => 'hardwareLinkFormatter',
-            ], [
+            ],/** [
                 'field' => 'image',
                 'searchable' => false,
                 'sortable' => true,
@@ -51,7 +51,7 @@ class AssetPresenter extends Presenter
                 'title' => trans('admin/hardware/table.image'),
                 'visible' => true,
                 'formatter' => 'imageFormatter',
-            ], [
+          ],*/ [
                 'field' => 'asset_tag',
                 'searchable' => true,
                 'sortable' => true,
@@ -99,14 +99,14 @@ class AssetPresenter extends Presenter
                 'title' => trans('admin/hardware/form.checkedout_to'),
                 'visible' => true,
                 'formatter' => 'polymorphicItemFormatter',
-            ], [
+            ],/** [
                 'field' => 'employee_number',
                 'searchable' => false,
                 'sortable' => false,
                 'title' => trans('general.employee_number'),
                 'visible' => false,
                 'formatter' => 'employeeNumFormatter',
-            ], [
+          ],[
                 'field' => 'location',
                 'searchable' => true,
                 'sortable' => true,
@@ -120,7 +120,7 @@ class AssetPresenter extends Presenter
                 'title' => trans('admin/hardware/form.default_location'),
                 'visible' => false,
                 'formatter' => 'deployedLocationFormatter',
-            ], [
+          ],*/ [
                 'field' => 'manufacturer',
                 'searchable' => true,
                 'sortable' => true,
@@ -141,7 +141,7 @@ class AssetPresenter extends Presenter
                 'visible' => false,
                 'title' => trans('general.purchase_date'),
                 'formatter' => 'dateDisplayFormatter',
-            ], [
+          ],/** [
                 'field' => 'age',
                 'searchable' => false,
                 'sortable' => false,
@@ -161,7 +161,7 @@ class AssetPresenter extends Presenter
                 "title" => trans('admin/hardware/table.book_value'),
                 "footerFormatter" => 'sumFormatter',
                 "class" => "text-right",
-            ],[
+           ],*/[
                 'field' => 'order_number',
                 'searchable' => true,
                 'sortable' => true,
@@ -182,7 +182,7 @@ class AssetPresenter extends Presenter
                 'visible' => false,
                 'title' => trans('admin/hardware/form.eol_date'),
                 'formatter' => 'dateDisplayFormatter',
-            ], [
+            ],/** [
                 'field' => 'warranty_months',
                 'searchable' => true,
                 'sortable' => true,
@@ -195,7 +195,7 @@ class AssetPresenter extends Presenter
                 'visible' => false,
                 'title' => trans('admin/hardware/form.warranty_expires'),
                 'formatter' => 'dateDisplayFormatter',
-            ], [
+          ],*/ [
                 'field' => 'notes',
                 'searchable' => true,
                 'sortable' => true,
@@ -251,7 +251,7 @@ class AssetPresenter extends Presenter
                 'visible' => false,
                 'title' => trans('admin/hardware/form.expected_checkin'),
                 'formatter' => 'dateDisplayFormatter',
-            ], [
+            ],/** [
                 'field' => 'last_audit_date',
                 'searchable' => false,
                 'sortable' => true,
@@ -273,7 +273,7 @@ class AssetPresenter extends Presenter
                 'title' => trans('general.byod'),
                 'formatter' => 'trueFalseFormatter',
 
-            ],
+            ],*/
         ];
 
         // This looks complicated, but we have to confirm that the custom fields exist in custom fieldsets

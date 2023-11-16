@@ -13,7 +13,7 @@ return [
     'bulk_update_with_custom_field' => 'Notez que les assets sont de :asset_model_count différents modèles.',
     'bulk_update_model_prefix' => 'Sur les modèles', 
     'bulk_update_custom_field_unique' => 'Ce champ est unique et ne peut pas être édité en volume.',
-    'checkedout_to'		=> 'Extrait vers',
+    'checkedout_to'		=> 'prêté à',
     'checkout_date'		=> 'Date d\'attribution',
     'checkin_date'		=> 'Date de dissociation',
     'checkout_to'		=> 'Prêter à',
