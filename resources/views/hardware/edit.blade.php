@@ -1,5 +1,5 @@
 
-<@extends('layouts/edit-form', [
+@extends('layouts/edit-form', [
     'createText' => trans('admin/hardware/form.create'),
     'updateText' => trans('admin/hardware/form.update'),
     'topSubmit' => true,
@@ -98,7 +98,7 @@
         <div class="col-md-9 col-sm-9 col-md-offset-3">
 
         <a id="optional_info" class="text-primary">
-           <i class="fa fa-caret-right fa-2x" id="optional_info_icon"></i>
+            <i class="fa fa-caret-right fa-2x" id="optional_info_icon"></i>
             <strong>{{ trans('admin/hardware/form.optional_infos') }}</strong>
         </a>
 
@@ -127,7 +127,7 @@
             @include ('partials.forms.edit.order_number')
             @include ('partials.forms.edit.purchase_date')
             @include ('partials.forms.edit.eol_date')
-           <!-- @include ('partials.forms.edit.supplier-select', ['translated_name' => trans('general.supplier'), 'fieldname' => 'supplier_id'])-->
+            @include ('partials.forms.edit.supplier-select', ['translated_name' => trans('general.supplier'), 'fieldname' => 'supplier_id'])
 
                 @php
                 $currency_type = null;
@@ -135,9 +135,7 @@
                     $currency_type = $item->location->currency;
                 }
                 @endphp
-
            
-
         </div>
     </div>
    
