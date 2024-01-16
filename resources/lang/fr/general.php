@@ -207,7 +207,7 @@ return [
     'only_deleted'          => 'Seulement les matériels supprimés',
     'page_menu'				=> 'Afficher_MENU_items',
     'pagination_info'		=> 'Afficher_DEBUT_à_FIN_de_TOUS_items',
-    'pending'				=> 'à perpa',
+    'pending'				=> 'à prepa',
     'people'				=> 'Personnes',
     'per_page'				=> 'Résultats par page',
     'previous'				=> 'Précédent',
