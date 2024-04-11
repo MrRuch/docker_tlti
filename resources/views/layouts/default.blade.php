@@ -563,11 +563,11 @@
                                         </li>
                                     @endcan
                                     @can('audit', \App\Models\Asset::class)
-                                        <li>
+                                        <!--<li>
                                             <a href="{{ route('assets.bulkaudit') }}">
                                                 {{ trans('general.bulkaudit') }}
                                             </a>
-                                        </li>
+                                        </li>-->
                                     @endcan
                                 </ul>
                             </li>

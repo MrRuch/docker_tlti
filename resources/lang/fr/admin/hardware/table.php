@@ -20,7 +20,7 @@ return [
     'purchase_date'	=> 'Acheté',
     'serial'   		=> 'Stockage',
     'status'   		=> 'Statut',
-    'title'      	=> 'Actif ',
+    'title'      	=> 'Ordinateur ',
     'image'		    => 'Image',
     'days_without_acceptance' => 'Jours sans acceptation',
     'monthly_depreciation' => 'Dépréciation mensuelle',

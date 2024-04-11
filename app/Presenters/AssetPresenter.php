@@ -58,14 +58,14 @@ class AssetPresenter extends Presenter
                 'title' => trans('admin/hardware/table.asset_tag'),
                 'visible' => true,
                 'formatter' => 'hardwareLinkFormatter',
-            ], [
+            ],/**  [
                 'field' => 'serial',
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('admin/hardware/form.serial'),
                 'visible' => true,
                 'formatter' => 'hardwareLinkFormatter',
-            ],  [
+        ],*/  [
                 'field' => 'model',
                 'searchable' => true,
                 'sortable' => true,
@@ -127,14 +127,14 @@ class AssetPresenter extends Presenter
                 'title' => trans('general.manufacturer'),
                 'visible' => false,
                 'formatter' => 'manufacturersLinkObjFormatter',
-            ], [
+            ], /*[
                 'field' => 'supplier',
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('general.supplier'),
                 'visible' => false,
                 'formatter' => 'suppliersLinkObjFormatter',
-            ], [
+        ], */  [
                 'field' => 'purchase_date',
                 'searchable' => true,
                 'sortable' => true,

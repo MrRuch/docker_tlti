@@ -92,7 +92,7 @@
         @endif
     </div>
 
-    <div class="form-group">
+   <!-- <div class="form-group">
     <label class="col-md-3 control-label"></label>
 
         <div class="col-md-9 col-sm-9 col-md-offset-3">
@@ -102,7 +102,7 @@
             <strong>{{ trans('admin/hardware/form.optional_infos') }}</strong>
         </a>
 
-        </div>
+        </div> -->
         
         <div id="optional_details" class="col-md-12" style="display:none">
         <br>
@@ -127,7 +127,7 @@
             @include ('partials.forms.edit.order_number')
             @include ('partials.forms.edit.purchase_date')
             @include ('partials.forms.edit.eol_date')
-            @include ('partials.forms.edit.supplier-select', ['translated_name' => trans('general.supplier'), 'fieldname' => 'supplier_id'])
+            <!--@include ('partials.forms.edit.supplier-select', ['translated_name' => trans('general.supplier'), 'fieldname' => 'supplier_id'])-->
 
                 @php
                 $currency_type = null;

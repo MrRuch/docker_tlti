@@ -910,6 +910,8 @@ class AssetsController extends Controller
         $asset->assigned_to = null;
         $asset->assignedTo()->disassociate($asset);
         $asset->accepted = null;
+        //test to set status to pending when checking in
+        $asset->status_id = 1;
 
         if ($request->has('name')) {
             $asset->name = $request->input('name');

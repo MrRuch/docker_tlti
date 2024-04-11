@@ -361,7 +361,7 @@ class AssetsController extends Controller
         $asset_tag = $request->input('asset_tags');
         $serial = $request->input('serials');
         $asset->name = $request->input('name');
-        $asset->serial = $serial[1];
+        // $asset->serial = $serial[1];
         $asset->company_id = Company::getIdForCurrentUser($request->input('company_id'));
         $asset->model_id = $request->input('model_id');
         $asset->order_number = $request->input('order_number');

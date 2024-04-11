@@ -391,14 +391,14 @@
                                     </div>
 
                                     <!-- byod -->
-                                    <div class="row">
+                                    <!--<div class="row">
                                         <div class="col-md-2">
                                             <strong>{{ trans('general.byod') }}</strong>
                                         </div>
                                         <div class="col-md-6">
                                             {!! ($asset->byod=='1') ? '<i class="fas fa-check text-success" aria-hidden="true"></i> '.trans('general.yes') : '<i class="fas fa-times text-danger" aria-hidden="true"></i> '.trans('general.no')  !!}
                                         </div>
-                                    </div>
+                                    </div>-->
 
                                     @if (($asset->model) && ($asset->model->fieldset))
                                         @foreach($asset->model->fieldset->fields as $field)
@@ -631,7 +631,7 @@
                                         </div>
                                     @endif
 
-                                    @if (($asset->asset_eol_date) && ($asset->purchase_date))
+                                    <!--@if (($asset->asset_eol_date) && ($asset->purchase_date))
                                         <div class="row">
                                             <div class="col-md-2">
                                                 <strong>
@@ -644,7 +644,7 @@
 
                                             </div>
                                         </div>
-                                    @endif
+                                    @endif -->
                                     @if ($asset->asset_eol_date)
                                         <div class="row">
                                             <div class="col-md-2">
@@ -813,11 +813,11 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-2">
+                                       <!-- <div class="col-md-2">
                                             <strong>
                                                Labels
                                             </strong>
-                                        </div>
+                                        </div>-->
                                         <div class="col-md-6">
                                             {{ Form::open([
                                                       'method' => 'POST',
@@ -826,7 +826,7 @@
                                                        'id' => 'bulkForm']) }}
                                                 <input type="hidden" name="bulk_actions" value="labels" />
                                                 <input type="hidden" name="ids[{{$asset->id}}]" value="{{ $asset->id }}" />
-                                                <button class="btn btn-sm btn-default" id="bulkEdit" ><i class="fas fa-barcode" aria-hidden="true"></i> {{ trans_choice('button.generate_labels', 1) }}</button>
+                                               <!-- <button class="btn btn-sm btn-default" id="bulkEdit" ><i class="fas fa-barcode" aria-hidden="true"></i> {{ trans_choice('button.generate_labels', 1) }}</button>-->
 
                                             {{ Form::close() }}
 
