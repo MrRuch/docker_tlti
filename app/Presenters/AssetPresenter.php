@@ -36,14 +36,14 @@ class AssetPresenter extends Presenter
                 'title' => trans('general.company'),
                 'visible' => false,
                 'formatter' => 'assetCompanyObjFilterFormatter',
-            ], [
+            ],/* [
                 'field' => 'name',
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('admin/hardware/form.name'),
                 'visible' => true,
                 'formatter' => 'hardwareLinkFormatter',
-            ],/** [
+            ], [
                 'field' => 'image',
                 'searchable' => false,
                 'sortable' => true,
@@ -120,21 +120,21 @@ class AssetPresenter extends Presenter
                 'title' => trans('admin/hardware/form.default_location'),
                 'visible' => false,
                 'formatter' => 'deployedLocationFormatter',
-          ],*/ [
+          ],*/[
                 'field' => 'manufacturer',
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('general.manufacturer'),
                 'visible' => false,
                 'formatter' => 'manufacturersLinkObjFormatter',
-            ], /*[
+            ],/* [
                 'field' => 'supplier',
                 'searchable' => true,
                 'sortable' => true,
                 'title' => trans('general.supplier'),
                 'visible' => false,
                 'formatter' => 'suppliersLinkObjFormatter',
-        ], */  [
+        ],**/   [
                 'field' => 'purchase_date',
                 'searchable' => true,
                 'sortable' => true,
@@ -168,13 +168,13 @@ class AssetPresenter extends Presenter
                 'visible' => false,
                 'title' => trans('general.order_number'),
                 'formatter' => 'orderNumberObjFilterFormatter',
-            ], [
+            ],/* [
                 'field' => 'eol',
                 'searchable' => false,
                 'sortable' => true,
                 'visible' => false,
                 'title' => trans('admin/hardware/form.eol_rate'),
-            ],
+            ],*/
             [
                 'field' => 'asset_eol_date',
                 'searchable' => true,

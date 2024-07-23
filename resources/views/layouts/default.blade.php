@@ -695,13 +695,13 @@
                                         </li>
                                     @endcan
 
-                                    @can('view', \App\Models\Location::class)
+                                    <!--@can('view', \App\Models\Location::class)
                                         <li>
                                             <a href="{{ route('locations.index') }}" {{ (Request::is('/locations') ? ' class="active"' : '') }}>
                                                 {{ trans('general.locations') }}
                                             </a>
                                         </li>
-                                    @endcan
+                                    @endcan-->
 
                                     @can('view', \App\Models\Company::class)
                                         <li>
